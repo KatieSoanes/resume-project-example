@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 }
 
 
-/*--------------------Heading*/
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
@@ -65,7 +65,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .title {
@@ -74,7 +74,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -85,13 +85,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -125,13 +125,14 @@ header {
     letter-spacing: 2px;
 }
 
-/*------ Hoover.css*/
-
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -139,6 +140,7 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -181,4 +183,3 @@ footer {
 #footer-details {
     padding: 20px;
 }
-
